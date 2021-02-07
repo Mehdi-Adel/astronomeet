@@ -1,0 +1,98 @@
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    z-index: 5;
+    width: 100%;
+    height: 120px;
+    padding: 0 60px;
+    font-family: $font-stack;
+    background: {
+        color: rgba(8, 12, 22, 0);
+    }
+
+
+    // Pour l'hide & show au scroll
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: top .6s;
+    overflow: hidden;
+    
+
+    &__title {
+        height: 28px;
+        margin: auto 0;
+    }
+
+    &__links {
+        display: flex;
+        flex-flow: row;
+        height: 20px;
+        margin: auto 0;
+
+        font: {
+            family: $font-stack;
+            weight: 600;
+        }
+
+        &__item {
+            padding-left: 80px;
+
+            a {
+                color: $color-font-main;
+                text-decoration: none;
+                padding-bottom: 6px;
+                position: relative;
+            }
+            a:after{
+                content: '';
+                position: absolute;
+                width: 0; height: 3px;
+                display: block;
+                margin-top: 6px;
+                right: 0;
+                background:$color-font-main-blue;
+                transition: width .3s ease;
+                -webkit-transition: width .3s ease;
+              }
+              a:hover:after{
+                width: 100%;
+                left: 0;
+                background: $color-font-main-blue;
+              }
+
+        }
+    }
+}
+
+.login {
+    padding-left: 160px;
+    a {
+        color: $color-font-main-blue;
+    }
+    a:after {
+        background-color: $color-font-main;
+    }
+    a:hover:after {
+        background-color: $color-font-main;
+    }
+}
+
+// Hide & Show on navbar:
+
+.menu.animate {
+    top: -120px;
+    background-color: rgba(8, 12, 22, 0.9)
+
+}
+.menu.sticky {
+    top: 0;
+    z-index: 99;
+}
+.hidden {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}

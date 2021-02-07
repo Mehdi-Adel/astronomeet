@@ -1,0 +1,28 @@
+- Accueil/News
+    - Evènements
+        - Proposer un évènement
+        - Consulter les évènements
+        - Gérer mes évènements (membre)
+        - Historique
+    - Communauté
+        - Vos photos
+        - Vos expériences
+        - Votre matériel
+        - Vos tutos/conseils
+    - Guide
+        - Bien débuter
+        - Conseils pratiques
+        - Conseils d'achats
+        - Liens utiles
+        - Carte météo + pollution lumineuse (filtres)
+    - Médias
+        - Photos
+            - Ciel
+            - Communauté
+        - Vidéos
+            - Ciel
+            - Communauté
+    - Calendrier
+        - Phénomènes spatiaux
+        - Salons/conférences
+    - Se connecter/S'inscrire/Espace membre

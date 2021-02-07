@@ -1,0 +1,111 @@
+[16-Dec-2019 23:26:07 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('12', '13') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:34:08 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '13') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:36:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:31
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(288): inscription('')
+#1 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/AVA/projet-ava/wp/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(175): do_action('wp_ajax_do_ajax')
+#4 {main}
+
+Next Exception: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[16-Dec-2019 23:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:31
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(288): inscription('')
+#1 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/AVA/projet-ava/wp/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(175): do_action('wp_ajax_do_ajax')
+#4 {main}
+
+Next Exception: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[16-Dec-2019 23:37:23 UTC] PHP Notice:  wpdb::prepare est appelée de la mauvaise manière. Type de valeur non supporté (object). Veuillez lire <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 4.8.2.) in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4903
+[16-Dec-2019 23:37:23 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, object given in /var/www/html/AVA/projet-ava/wp/wp-includes/wp-db.php on line 1165
+[16-Dec-2019 23:37:23 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:37:42 UTC] PHP Notice:  wpdb::prepare est appelée de la mauvaise manière. Type de valeur non supporté (object). Veuillez lire <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 4.8.2.) in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4903
+[16-Dec-2019 23:37:42 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, object given in /var/www/html/AVA/projet-ava/wp/wp-includes/wp-db.php on line 1165
+[16-Dec-2019 23:37:42 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:40:25 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '25') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:55:29 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:55:30 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:12 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:19 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:26 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:26 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:00:10 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:00:10 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:12:19 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/output/Html.php on line 473
+[17-Dec-2019 00:12:19 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '<<' (T_SL) in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:17
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp-config.php(206): require_once()
+#1 /var/www/html/AVA/projet-ava/wp/wp-load.php(42): require_once('/var/www/html/A...')
+#2 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(22): require_once('/var/www/html/A...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '<<' (T_SL) in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[17-Dec-2019 00:32:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:38:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:39:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:40:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:43:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:46:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:51:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 01:44:55 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 01:44:55 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:22 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:22 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:24 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:24 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:25 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:25 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:26 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:26 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:29 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:29 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:34 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:34 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:52 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:52 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:53 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:53 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:55 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:55 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:49:43 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:50:14 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:53:03 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:53:50 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:55:22 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 12:27:49 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 14:13:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:14:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:18:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:21:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:22:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:23:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:27:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:22 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:32 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_month in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 306
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_day in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 307
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 308
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 309
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_year in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 313
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 314
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_minute in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 315
